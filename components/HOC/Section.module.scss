@@ -1,0 +1,18 @@
+@use "../../styles/partials/variables" as *;
+
+.section {
+	min-height: 100vh;
+	border: 1px solid red;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+	&Title {
+		text-align: center;
+	}
+	& + & {
+	}
+}
+.container {
+	@extend %container;
+}
+
+

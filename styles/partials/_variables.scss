@@ -1,0 +1,29 @@
+// breakpoints
+
+$breakpoint-xxl: 4000px;
+$breakpoint-xl: 2000px;
+$breakpoint-l: 1200px;
+$breakpoint-m: 800px;
+$breakpoint-s: 500px;
+$breakpoint-xs: 350px;
+
+// document
+$document-font-size: 62.5%;
+$document-font-family: Roboto, Montserrat, -apple-system, BlinkMacSystemFont,
+	Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+	Helvetica Neue, sans-serif;
+
+// container
+$container-width: min(90vw, 1200px);
+$container-pad: 0 calc((100vw - $container-width) / 2);
+
+// colors
+$base-light: #ccc;
+$base-dark: #333;
+// brand
+// accents
+// neutrals
+
+%container {
+	padding: $container-pad;
+}

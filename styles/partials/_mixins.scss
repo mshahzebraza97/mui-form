@@ -1,0 +1,9 @@
+@use "variables" as *;
+
+// Mixins
+
+@mixin responsive($breakpoint: 500px) {
+	@media only screen and (max-width: $breakpoint) {
+		@content;
+	}
+}
