@@ -108,16 +108,8 @@ function Form() {
         //      number: Yup.string().required('Required'),
         // }),
 
+    })
 
-
-        // description: Yup.string().required('Required'),
-        // selectOption: Yup.string().required('Required'),
-        // radioOption: Yup.string().required('Required'),
-        // checkboxOption: Yup.array().min(1, 'Select at-least 01 option').max(2, 'Select 02 options at max'),
-        // fieldArr: Yup.array().min(1, 'Cannot be empty'),
-        // fieldArrPair: Yup.array().min(1, 'Cannot be empty'),
-    }
-    )
     const onSubmit = values => {
         console.log('Form data', values)
     }
